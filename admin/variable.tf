@@ -17,6 +17,6 @@ variable "vault_addr" {
 }
 
 variable "vault_token" {
-  default = "hvs.pJMYybc0MSiXmT5j2w5zziDO"
+  default = "hvs.8otTCepynRvTvRUtCUQt8Yso"
 
 }

@@ -5,12 +5,11 @@ cd admin
 echo $(aws sts get-caller-identity)
 sleep 5
 
-
-terraform fmt -recursive
-terraform init 
-terraform validate
-terraform plan
-terraform apply -auto-approve
+terrform fmt -recursive
+terrform init 
+terrform validate
+terrform plan
+terrform apply -auto-approve
 ##########################
 
 cd ../resources
