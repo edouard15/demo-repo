@@ -1,12 +1,14 @@
+
+##provision access_key when running the script
 variable "access_key" {
-  default = "AKIA5HSJ6BTTIYGK5FR6"
+  default = ""
   # checkov:skip=CKV_SECRET_2: ADD REASON
 
 }
 
-
+#provision secret_key when running the script
 variable "secret_key" {
-  default = "rfyfc56lUYYXJjlT4E6OWpMMCGJMFuHu8yCDpLe2"
+  default = ""
 
 }
 
